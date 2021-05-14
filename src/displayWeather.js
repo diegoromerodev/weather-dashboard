@@ -28,7 +28,7 @@ function displayWeeklyWeather({ daily }) {
       if (i >= 5) return;
       // eslint-disable-next-line consistent-return
       return ` 
-        <div class="daily-1 day-block">
+        <div class="daily-${i + 1} day-block">
             <h3 class="day-name">${
               i === 0 ? "Today" : date.format(plusDate, "dddd")
             }</h3>

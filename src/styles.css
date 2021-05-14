@@ -43,6 +43,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .vertical-line {
@@ -107,6 +108,8 @@ body {
   border-radius: 2em;
   background-color: #3e3e75;
   color: #fafafa;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #header input {
@@ -141,7 +144,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   max-width: 1000px;
   border-radius: 5px;
   padding: 40px;
@@ -175,7 +178,7 @@ body {
 /* WEEKLY WEATHER */
 #daily-weather {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   max-width: 1000px;
   background-color: #3b82a5;
   border-radius: 5px;
@@ -216,7 +219,7 @@ body {
 /* MORE INFO BLOCK*/
 #more-info {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
   max-width: 1000px;
   background-color: #f0f0f0;
   display: flex;
@@ -260,7 +263,23 @@ body {
 
 /* QUICK RESPONSIVENESS */
 
-@media (max-width: 900px) {
+@media (max-width: 1250px) {
+  .container {
+    padding: 0 2px;
+  }
+
+  .circle-btn {
+    padding: 20px;
+    margin-left: 10px;
+  }
+
+  #header {
+    padding: 20px 5px;
+  }
+
+  #header h2 {
+    font-size: 1em;
+  }
   #current-weather .city-name {
     font-size: 2em;
   }
@@ -270,13 +289,14 @@ body {
   }
 
   #current-weather .country-name {
-    font-size: 1em;
+    font-size: 0.7em;
     font-style: italic;
     font-weight: lighter;
+    word-break: break-all;
   }
 
   #current-weather .current-degrees {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 
   #current-weather .sensation {
@@ -288,6 +308,14 @@ body {
     display: block;
   }
   .weather-days h3 {
+    font-size: 0.8em;
+  }
+
+  #more-info .more-info-caption {
+    font-size: 1.3em;
+  }
+
+  .w-info h3 {
     font-size: 1em;
   }
 }
