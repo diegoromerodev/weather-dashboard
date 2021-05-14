@@ -79,7 +79,6 @@ async function displayWeather(query) {
   );
 
   displayWeeklyWeather(weather);
-  console.log(weather);
 
   displayMoreInfo(weather);
   loadingBar.classList.remove("animating");
