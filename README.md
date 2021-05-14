@@ -17,6 +17,7 @@
 <ul>
     <li>Clone the project with <code>$ git clone https://github.com/diegoromerodev/weather-dashboard.git </code>
     <li>Run <code>$ npm i</code> from the download directory.
+    <li>Build with: <code>$ npm run build</code></li>
     <li>And finally, run the server with: <code>$ npm run server</code></li>
     <li>That's it!</li>
 </li>
