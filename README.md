@@ -20,3 +20,5 @@
     <li>And finally, run the server with: <code>$ npm run server</code></li>
     <li>That's it!</li>
 </li>
+
+ICONS BY: <a href="https://www.flaticon.com/authors/fjstudio">FJSTUDIO</a>
